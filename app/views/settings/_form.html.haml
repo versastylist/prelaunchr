@@ -8,19 +8,18 @@
 		.col-sm-4
 			= f.input :additional_image, as: :file, label: "Additional image"
 
-
-	%legend Twitter		
-	.form-group.form-group-sm
-		.col-sm-4
-			= f.input :twitter_message, as: :string, label: "Message", placeholder: "Message", required: false
-			= f.input :twitter_image, as: :file, label: "Twitter image"
-			
 	%legend Facebook
 	.form-group.form-group-sm
 		.col-sm-4
 			= f.input :facebook_message, as: :string, label: "Message", placeholder: "Message", required: false
 			= f.input :facebook_title, as: :string, label: "Title", placeholder: "Title", required: false
 			= f.input :facebook_image, as: :file, label: "Facebook image"
+
+	%legend Twitter		
+	.form-group.form-group-sm
+		.col-sm-4
+			= f.input :twitter_message, as: :string, label: "Message", placeholder: "Message", required: false
+			= f.input :twitter_image, as: :file, label: "Twitter image"
 
 	%legend Google+
 	.form-group.form-group-sm
