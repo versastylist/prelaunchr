@@ -1,13 +1,15 @@
 class Setting < ActiveRecord::Base
 	
-	has_attached_file :cover_image, :storage => :s3,
+	has_attached_file :cover_image,
+								:storage => :s3,
 								:s3_protocol => 'https',
 								:bucket => ENV['S3_BUCKET'],
                 :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
                 :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
 	validates_attachment :cover_image, :content_type => {:content_type => /\Aimage\/.*\Z/}
 
-	has_attached_file :additional_image, :storage => :s3,
+	has_attached_file :additional_image,
+								:storage => :s3,
 								:s3_protocol => 'https',
 								:bucket => ENV['S3_BUCKET'],
                 :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
@@ -15,7 +17,9 @@ class Setting < ActiveRecord::Base
 	validates_attachment :additional_image, :content_type => {:content_type => /\Aimage\/.*\Z/}
 
 
-	has_attached_file :facebook_image, :storage => :s3,
+	has_attached_file :facebook_image,
+								:storage => :s3,
+								:default_url => "https:/s3.amazonaws.com/vs-prelauncher/settings/facebook_images/"
 								:s3_protocol => 'https',
 								:bucket => ENV['S3_BUCKET'],
                 :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
