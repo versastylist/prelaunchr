@@ -1,4 +1,5 @@
 class Setting < ActiveRecord::Base
+	
 	has_attached_file :cover_image, :storage => :s3,
 								:s3_protocol => 'https',
 								:bucket => ENV['S3_BUCKET'],
