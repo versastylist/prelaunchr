@@ -12,7 +12,7 @@ class Share < ActiveRecord::Base
 	end
 
 	def facebook_link(root_url)
-		"https://www.facebook.com/sharer/sharer.php?u=#{user.referral_url(root_url)}&title=#{Setting.sharing[:facebook_title]}"
+		"https://www.facebook.com/sharer/sharer.php?u=#{user.referral_url(root_url)}&title=#{data[:facebook_title]}"
 	end
 
 	def google_plus_link(root_url)
