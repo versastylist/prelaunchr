@@ -1,0 +1,21 @@
+#social-sharing
+	%ul.contact-socials.clearfix
+		%li
+			%a.foo_social.ico-facebook{:href => @user.social_url("facebook"), target: "_blank"}
+				#facebook_icon
+
+		%li
+			%a.foo_social.ico-twitter{:href => @user.social_url("twitter"), target: "_blank"}
+				#twitter_icon
+
+		%li
+			%a.foo_social.ico-linkedin{:href => @user.social_url("linkedin"), target: "_blank"}
+				#linkedin_icon
+
+		%li
+			%a.foo_social.ico-pinterest{:href => @user.social_url("pinterest"), target: "_blank"}
+				#pinterest_icon
+
+		%li
+			%a.foo_social.ico-mail{:href => "mailto:?&subject=#{Setting.sharing[:email_subject]}&body=#{Setting.sharing[:email_message] + " " + @user.referral_url(root_url)}", target: "_blank"}
+				#email_icon

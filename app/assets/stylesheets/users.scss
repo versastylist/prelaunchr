@@ -1,0 +1,1227 @@
+#content-wrapper {
+    width: 100%;
+}
+
+#main {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 0px;
+	width: 100%;
+	display: table;
+}
+
+.cover {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.frost {
+  max-width: 600px;
+  margin: auto;
+  padding: 5px 0 ;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cover-title {
+  font-size: 5em;
+  color: #FFF;
+  font-weight: 400;
+  font-family: 'Nothing You Could Do', cursive;
+  width: auto;
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+.hr-wrapper hr {
+  width: 80%;
+  margin: auto;
+}
+
+.pms {
+  font-size: 2em;
+  font-family: 'Wire One', sans-serif;
+  color: #FFF;
+  letter-spacing: .15em;
+  text-shadow: 0 1px 1px rgba(0,0,0,1);
+  text-align: right;
+  margin-right: 50px;
+}
+
+.cover-subtitle {
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 400;
+  font-family: Lato;
+  max-width: 600px;
+  text-align: center;
+  margin: 10px auto;
+  text-transform: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+#new_user {
+	width: auto;
+	margin: 10px auto;
+	padding: 0px;
+	display: inline-block;
+	border: medium none;
+}
+
+#new_user .form-group {
+	display: inline;
+}
+
+#new_user .form-control {
+  height: 45px;
+  margin: 2px 0;
+  border-radius: 0px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  text-indent: 1em;
+  width: 100%;
+  float: left;
+  display: inline-block;  
+}
+
+#new_user .btn {  
+  height: 45px;
+  border-radius: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  background-color: #4EC9ED;
+  color: #FFF;
+  font-family: Lato;
+  float: left;
+  display: inline-block;
+  background-color: rgba(255,0,0,0.5);
+}
+
+.cover small {
+	font-size: 16px;
+	color: #FFF;
+	font-weight: 400;
+	font-family: Lato;
+	text-transform: none;
+	text-align: center;
+	margin: 0px auto;
+	display: block;	
+}
+
+#refer {
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+	top: 0px;
+	width: 100%;
+	display: table;
+	padding-top: 25px;
+  margin-bottom: 25px;
+  background-size: cover;
+  border-bottom: medium none; 
+}
+
+#refer .bg-cover {
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: solid rgba(255, 0, 0, .5) .5px;
+}
+
+#refer .ref-title{
+  font-size: 6em;
+  color: #FFF;
+  font-weight: 400;
+  font-family: 'Nothing You Could Do', cursive;
+  width: auto;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px rgba(0,0,0,1);
+}
+
+#refer .ref-frost {
+  margin-top: 5px;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#copy h3 {
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 400;
+	font-family: Lato;
+	margin: 0px auto 0px 50px;
+	text-align: left;
+	width: auto;
+	text-transform: uppercase;
+}
+
+#copy h1 {
+	font-size: 25px;
+	color: #fff;
+	font-weight: 800;
+	font-family: Lato;
+	margin: 5px auto 25px 50px;
+	text-align: left;
+	width: auto;
+	text-transform: uppercase;	
+}
+
+#refer input {
+  height: 35px;
+  border-radius: 0px;
+  font-size: 14px;
+  width: 85%;
+  margin: 10px 0px 25px 50px;
+  text-align: center;
+  line-height: 30px;
+}
+
+#refer p {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 400;
+  font-family: Lato;
+  margin: 0px auto 0px 50px;
+  text-align: left;
+  width: auto;
+  text-transform: none;
+}
+
+#social-sharing {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-socials li {
+  padding: 0px 5px;
+}
+
+#facebook_icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://s3.amazonaws.com/vs-prelauncher/fb.png);
+  /*background-size: 50% 50%;*/
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+#twitter_icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://s3.amazonaws.com/vs-prelauncher/twitter.png);
+  /*background-size: 50% 50%;*/
+  background-repeat: no-repeat;
+}
+
+#linkedin_icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://s3.amazonaws.com/vs-prelauncher/linkedin.png);
+  /*background-size: 50% 50%;*/
+  background-repeat: no-repeat;
+}
+
+#pinterest_icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://s3.amazonaws.com/vs-prelauncher/pinterest.png);
+  /*background-size: 50% 50%;*/
+  background-repeat: no-repeat;
+}
+
+#email_icon {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://s3.amazonaws.com/vs-prelauncher/email.png);
+  /*background-size: 50% 50%;*/
+  background-repeat: no-repeat;
+}
+
+.contact-socials {
+    display: inline-block;
+}
+
+.contact-socials li {
+  padding: 0px 15px;
+  float: left;
+  transition: all 250ms ease-in-out 0s;
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+.contact-socials li:last-child{
+	border: none;
+}
+
+.ico-facebook {
+  color: #3B5998;
+}
+
+.ico-facebook:hover {
+	color: #3B5998;
+	opacity: 0.8;
+}
+
+.contact-socials i.fa {
+    font-size: 30px
+}
+
+.ico-twitter {
+    color: #00A9ED;
+}
+
+.ico-twitter:hover {
+	 color: #00A9ED;
+	 opacity: 0.8;
+}
+
+.ico-pinterest {
+    color: #bd081c;
+}
+
+.ico-pinterest:hover, .ico-pinterest:focus{
+    color: #bd081c;
+  opacity: 0.8;
+}
+
+.ico-gplus {
+    color: #d34836;
+}
+
+.ico-gplus:hover, .ico-gplus:focus{
+    color:  #d34836;
+    opacity:0.8
+}
+
+.ico-mail {
+    color: #25A3DC;
+}
+
+.ico-mail:hover {
+	color: #25A3DC;
+	opacity: 0.8;
+}
+
+aside h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  font-family: Lato;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+  /* mixins, variables, etc. */
+  $iphone6plus-dims: 48px !important;
+  
+  .contact-socials li {
+    padding: 0 10px !important;
+  }
+
+  #facebook_icon {
+    width: $iphone6plus-dims;
+    height: $iphone6plus-dims;
+    background-size: 90% 90%;
+  }
+
+  #twitter_icon {
+    width: $iphone6plus-dims;
+    height: $iphone6plus-dims;
+    background-size: 90% 90%;
+  }
+
+  #linkedin_icon {
+    width: $iphone6plus-dims;
+    height: $iphone6plus-dims;
+    background-size: 90% 90%;
+  }
+
+  #pinterest_icon {
+    width: $iphone6plus-dims;
+    height: $iphone6plus-dims;
+    background-size: 90% 90%;
+  }
+
+  #email_icon {
+    width: $iphone6plus-dims;
+    height: $iphone6plus-dims;
+    background-size: 90% 90%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+/* --------------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  .cover {
+    width: 80%;
+    height: 50%; 
+  }
+
+  .frost {
+    width: auto;
+    height: auto;
+  }
+
+  .cover-title {
+    font-size: 3.25em;
+  }
+
+  .hr-wrapper hr {
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .coming-soon {
+    font-size: 1.75em;
+    letter-spacing: .5em;
+  }
+
+  .cover-subtitle {
+    font-size: 1em;
+    text-shadow: 0 1px 1px rgba(0,0,0,1);
+  }
+
+  .form-wrapper {
+    margin-top: 10px;
+  }
+
+  #new_user {
+    width: 100%;
+  } 
+
+  #new_user .form-control {
+    height: 20px;
+    font-size: 1em;
+  }
+
+  #new_user .user_email {
+    width: 100%;
+  }
+
+  #new_user .form-group {
+    display: inline;
+  }
+
+  #new_user .btn {
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .cover small {
+    font-size: 1em;
+  }
+
+  #facebook_icon {
+    width: 48px;
+    height: 48px;
+    background-size: 90% 90%;
+  }
+
+  #twitter_icon {
+    width: 48px;
+    height: 48px;
+    background-size: 90% 90%;
+  }
+
+  #linkedin_icon {
+    width: 48px;
+    height: 48px;
+    background-size: 90% 90%;
+  }
+
+  #pinterest_icon {
+    width: 48px;
+    height: 48px;
+    background-size: 90% 90%;
+  }
+
+  #email_icon {
+    width: 48px;
+    height: 48px;
+    background-size: 90% 90%;
+  }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 640px) 
+  and (device-height: 360px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+  .cover {
+    width: 80%;
+    height: 85%; 
+  }
+
+  .frost {
+    width: auto;
+    height: auto;
+  }
+
+  .cover-title {
+    font-size: 5em;
+  }
+
+  .hr-wrapper hr {
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .coming-soon {
+    font-size: 2em;
+    letter-spacing: .5em;
+  }
+
+  .cover-subtitle {
+    font-size: 1.5em;
+    text-shadow: 0 1px 1px rgba(0,0,0,1);
+  }
+
+  .form-wrapper {
+    margin-top: 10px;
+  }
+
+  #new_user {
+    width: 100%;
+  } 
+
+  #new_user .form-control {
+    height: 45px;
+    font-size: 1em;
+  }
+
+  #new_user .user_email {
+    width: 55%;
+  }
+
+  #new_user .form-group {
+    display: inline;
+  }
+
+  #new_user .btn {
+    font-size: 1em;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+
+  .cover small {
+    font-size: 1em;
+  }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  /* mixins, variables, etc. */
+  $iphone-w: 42px;
+  
+  .contact-socials li {
+    padding: 0 5px;
+  }
+
+  #facebook_icon {
+    width: $iphone-w;
+    height: $iphone-w;
+    background-size: 90% 90%;
+  }
+
+  #twitter_icon {
+    width: $iphone-w;
+    height: $iphone-w;
+    background-size: 90% 90%;
+  }
+
+  #linkedin_icon {
+    width: $iphone-w;
+    height: $iphone-w;
+    background-size: 90% 90%;
+  }
+
+  #pinterest_icon {
+    width: $iphone-w;
+    height: $iphone-w;
+    background-size: 90% 90%;
+  }
+
+  #email_icon {
+    width: $iphone-w;
+    height: $iphone-w;
+    background-size: 90% 90%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .col-md-5.col-sm-6.col-xs-12 {
+    width: 100%;
+  }
+
+  #refer .bg-cover {
+    border: solid rgba(255, 0, 0, 0.5) 2px;
+  }
+
+  #copy h1, #copy h3, #refer p, #refer input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #copy h3 {
+    font-size: 2.5em;
+  }
+
+  #copy h1 {
+    font-size: 4em;
+  }
+
+  #refer input {
+    height: 50px !important;
+    font-size: 2em !important;
+    width: 85%;
+  }
+
+  #refer p {
+    font-size: 1.75em;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .col-md-5.col-sm-6.col-xs-12 {
+    width: 100%;
+  }
+
+  #refer .bg-cover {
+    border: solid rgba(255, 0, 0, 0.5) 2px;
+  }
+
+  #copy h1, #copy h3, #refer p, #refer input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #copy h3 {
+    font-size: 2.5em;
+  }
+
+  #copy h1 {
+    font-size: 4em;
+  }
+
+  #refer input {
+    height: 75px;
+    font-size: 2.5em;
+    width: 85%;
+  }
+
+  #refer p {
+    font-size: 1.75em;
+  }
+}
+
+/* ----------- Kindle Fire HDX" ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width : 1600px) 
+  and (max-device-width : 2560px)
+  and (device-width : 1600px)
+  and (device-height : 2560px)
+  and (orientation : portrait) 
+  and (-webkit-min-device-pixel-ratio : 2) 
+  and (-webkit-device-pixel-ratio : 2) {
+  
+  #copy h1, #copy h3, #refer p, #refer input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #refer .bg-cover {
+    border: solid rgba(255, 0, 0, 0.5) 2px;
+  }
+
+  #refer .ref-title {
+    font-size: 12em;
+    padding-bottom: 40px;
+  }
+
+  .col-md-5.col-sm-6.col-xs-12 {
+    width: 100%;
+  }
+
+  #copy h3{
+    font-size: 5em;
+  }
+
+  #copy h1 {
+    font-size: 6em; 
+  }
+
+  #refer input {
+    height: 90px;
+    border-radius: 0px;
+    font-size: 3em;
+    width: 85%;
+  }
+
+  #refer p {
+    font-size: 3em;
+  }
+
+  aside h4 {
+    font-size: 4em;
+  }
+
+  /* mixins, variables, etc. */
+  $kindle-wh: 84px;
+  
+  .contact-socials li {
+    padding: 0 30px;
+  }
+
+  #facebook_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #twitter_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #linkedin_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #pinterest_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #email_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2560px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+  
+  /* mixins, variables, etc. */
+  $kindle-wh: 84px;
+  
+  #copy h1, #copy h3, #refer p, #refer input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #refer .bg-cover {
+    border: solid rgba(255, 0, 0, 0.5) 2px;
+  }
+
+  #refer .ref-title {
+    font-size: 12em;
+  }
+
+  .col-md-5.col-sm-6.col-xs-12 {
+    width: 100%;
+  }
+
+  #copy h3{
+    font-size: 6em;
+  }
+
+  #copy h1 {
+    font-size: 10em; 
+  }
+
+  #refer p{
+    font-size: 3.5em;
+  }
+
+  #refer input {
+    height: 135px;
+    font-size: 6em;
+    width: 85%;
+  }
+
+  aside h4 {
+    font-size: 4em;
+  }
+
+  #facebook_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #twitter_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #linkedin_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #pinterest_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+
+  #email_icon {
+    width: $kindle-wh;
+    height: $kindle-wh;
+    background-size: 90% 90%;
+  }
+}
+
+/* ----------- BlackbBerry Playbook ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+  .col-md-5.col-sm-6.col-xs-12 {
+    width: 100%;
+  }
+
+  #refer .bg-cover {
+    border: solid rgba(255, 0, 0, 0.5) 2px;
+  }
+}
+
+/* ----------- Google Nexys 10 ----------- */
+/* Portrait */
+@media only screen 
+  and (device-width: 800px) 
+  and (device-height: 1280px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  #copy h1, #copy h3, #refer p, #refer input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #copy h3 {
+    font-size: 2.5em;
+  }
+
+  #copy h1 {
+    font-size: 4em;
+  }
+
+  #refer input {
+    height: 100px;
+    font-size: 3em;
+    width: 85%;
+  }
+
+  #refer p {
+    font-size: 2em;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (device-width: 1280px) 
+  and (device-height: 800px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  
+  #copy h1, #copy h3, #refer p, #refer input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #copy h3 {
+    font-size: 4.5em;
+  }
+
+  #copy h1 {
+    font-size: 6em;
+  }
+
+  #refer input {
+    height: 100px;
+    font-size: 3em;
+    width: 85%;
+  }
+
+  #refer p {
+    font-size: 3em;
+  }
+}
+
+/* ------------------- standard media queries ------------------- */
+@media screen and (max-width: 980px){
+  #refer article p.small {
+    display: none;
+  }
+
+  #refer figcaption {
+    display: block;
+  }
+
+  #refer input {
+    height: 30px;
+    font-size: 19px;
+    margin-top: 10px;
+    line-height: 30px;
+  }
+
+  #refer figcaption {
+    margin-top: 10px;
+  }
+
+  #refer h2 {
+    padding-top: 20px;
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #refer input {
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 30px;
+  }
+
+  #refer figure {
+    margin-top: 18px;
+  }
+
+  #refer h2 {
+    line-height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  .refer-left {
+    padding: 0;
+  }
+
+  #refer input {
+    height: 30px;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 30px;
+  }
+
+
+  #refer figure {
+    margin-top: 18px;
+  }
+
+  #refer h2 {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #refer input {
+    height: 28px;
+    font-size: 17px;
+    margin-top: 5px;
+    line-height: 28px;
+  }
+
+  #refer p {
+    line-height: 1.15;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #refer .ref-title {
+    font-size: 4em;
+  }
+
+  #reinforcement p {
+    text-align: center;
+  }
+
+  #copy h1, #copy h3, #refer p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #refer input {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px; 
+  }
+
+  #refer p {
+    font-size: 17px;
+  }
+
+  #refer h1 {
+    font-size: 30px;
+    margin: 15px auto 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .cover {
+    padding: 0 5px;
+  }
+
+  .cover-heading {
+    font-size: 5vw;
+  }
+
+  #new_user input {
+    font-size: 20px;
+  }
+
+  #new_user .user_email {
+    margin-right: -4px;    
+  }
+
+  #new_user .submit {
+    min-width: 80px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #new_user .user_email {
+    width: 60%;
+  }
+
+  #new_user .submit {
+    width: 40%;
+  }
+
+  #prizes{
+    margin: 100px 20px;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+   #new_user input {
+    font-size: 18px !important;
+  }
+
+  .cover-heading {
+    font-size: 30px;
+  }
+
+  #new_user {
+    width: 100%;
+  } 
+
+  #new_user .user_email {
+    width: 55%;
+  }
+
+  #new_user .submit {
+    width: 45%;
+  }
+
+  .cover-title {
+    font-size: 36px;
+  }
+
+  .cover-subtitle {
+    font-size: 18px;
+  }
+
+  .contact-socials li {
+    padding: 0px 5px;
+  }
+}
+
+
+@media screen and (max-width: 360px){
+  #refer h1 {
+    font-size: 27px;
+  }
+
+  .cover-heading {
+    font-size: 25px;
+  }
+  
+  #new_user .submit {
+    min-width: 60px;
+  }
+
+  #refer p {
+    font-size: 15px;
+  }
+
+  #refer figcaption p {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  #new_user input {
+    font-size: 16px !important;
+  }
+
+  #new_user .user_email {
+   width: 55%;
+  }
+
+    #new_user .submit {
+    width: 45%;
+  }
+
+  .contact-socials i.fa {
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 300px){
+  .contact-socials li {
+    padding: 0 5px;
+  }
+
+  .contact-socials i.fa {
+    font-size: 22px;
+  }
+
+  #new_user .btn{
+    margin-left: auto;
+  }
+
+  #new_user .form-group{
+    width: 100%;
+  }
+
+  #new_user .submit{
+    margin-top: -15px;
+  }
+
+  .cover-title {
+    font-size: 30px;
+  }
+  
+  .cover-subtitle {
+    font-size: 16px;
+  }
+
+  #new_user input {
+    width: 100% !important;
+    font-size: 18px !important;
+  }
+}

@@ -1,0 +1,12 @@
+%section#main{style: "background-image: url(#{asset_url(Setting.cover_image.url)});"}
+	.cover
+		.frost
+			%h1.cover-title VersaStylist
+			.hr-wrapper
+				%hr
+			.pms premium mobile salon
+		%h3.cover-subtitle Be the first to know when we launch.
+		#form-wrapper
+			= render "form"
+			%footer#footer
+				= link_to "Privacy Policy", privacy_path, remote: true
