@@ -14,26 +14,26 @@ class User < ActiveRecord::Base
     end
 
     def progress
-        unit = prize ? 1.fdiv(Prize.all.count) :1.fdiv(2 * Prize.all.count)
-        targets = Prize.all.order("number_of_referrals asc").pluck(:number_of_referrals)
-        base = 0
+      unit = prize ? 1.fdiv(Prize.all.count) :1.fdiv(2 * Prize.all.count)
+      targets = Prize.all.order("number_of_referrals asc").pluck(:number_of_referrals)
+      base = 0
 
-        unless prize
-            return unit * (number_of_referrals.fdiv(targets[0])) 
-        end
+      unless prize
+          return unit * (number_of_referrals.fdiv(targets[0])) 
+      end
 
-        targets.each_with_index do |value, index|  
-            if number_of_referrals >= value && value > 0
-                base += unit 
-            elsif index > 0
-                base += unit * (number_of_referrals - targets[index - 1]).fdiv(value - targets[index - 1])
-                break
-            end
-        end
+      targets.each_with_index do |value, index|  
+          if number_of_referrals >= value && value > 0
+              base += unit 
+          elsif index > 0
+              base += unit * (number_of_referrals - targets[index - 1]).fdiv(value - targets[index - 1])
+              break
+          end
+      end
 
-        base -= unit.fdiv(2)
+      base -= unit.fdiv(2)
 
-        return base
+      return base
     end
 
     def achieved prize
