@@ -323,6 +323,268 @@ aside h4 {
 }
 
 
+
+/* ------------------- standard media queries ------------------- */
+@media screen and (max-width: 980px){
+  #refer article p.small {
+    display: none;
+  }
+
+  #refer figcaption {
+    display: block;
+  }
+
+  #refer input {
+    height: 30px;
+    font-size: 19px;
+    margin-top: 10px;
+    line-height: 30px;
+  }
+
+  #refer figcaption {
+    margin-top: 10px;
+  }
+
+  #refer h2 {
+    padding-top: 20px;
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #refer input {
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 30px;
+  }
+
+  #refer figure {
+    margin-top: 18px;
+  }
+
+  #refer h2 {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .refer-left {
+    padding: 0;
+  }
+
+  #refer input {
+    height: 30px;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 30px;
+  }
+
+
+  #refer figure {
+    margin-top: 18px;
+  }
+
+  #refer h2 {
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #refer input {
+    height: 28px;
+    font-size: 17px;
+    margin-top: 5px;
+    line-height: 28px;
+  }
+
+  #refer p {
+    line-height: 1.15;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #refer .ref-title {
+    font-size: 4em;
+  }
+
+  #reinforcement p {
+    text-align: center;
+  }
+
+  #copy h1, #copy h3, #refer p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #refer input {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px; 
+  }
+
+  #refer p {
+    font-size: 17px;
+  }
+
+  #refer h1 {
+    font-size: 30px;
+    margin: 15px auto 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .cover {
+    padding: 0 5px;
+  }
+
+  .cover-heading {
+    font-size: 5vw;
+  }
+
+  #new_user input {
+    font-size: 20px;
+  }
+
+  #new_user .user_email {
+    margin-right: -4px;    
+  }
+
+  #new_user .submit {
+    min-width: 80px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #new_user .user_email {
+    width: 60%;
+  }
+
+  #new_user .submit {
+    width: 40%;
+  }
+
+  #prizes{
+    margin: 100px 20px;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+   #new_user input {
+    font-size: 18px !important;
+  }
+
+  .cover-heading {
+    font-size: 30px;
+  }
+
+  #new_user {
+    width: 100%;
+  } 
+
+  #new_user .user_email {
+    width: 55%;
+  }
+
+  #new_user .submit {
+    width: 45%;
+  }
+
+  .cover-title {
+    font-size: 36px;
+  }
+
+  .cover-subtitle {
+    font-size: 18px;
+  }
+
+  .contact-socials li {
+    padding: 0px 5px;
+  }
+}
+
+
+@media screen and (max-width: 360px){
+  #refer h1 {
+    font-size: 27px;
+  }
+
+  .cover-heading {
+    font-size: 25px;
+  }
+  
+  #new_user .submit {
+    min-width: 60px;
+  }
+
+  #refer p {
+    font-size: 15px;
+  }
+
+  #refer figcaption p {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  #new_user input {
+    font-size: 16px !important;
+  }
+
+  #new_user .user_email {
+   width: 55%;
+  }
+
+    #new_user .submit {
+    width: 45%;
+  }
+
+  .contact-socials i.fa {
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 300px){
+  .contact-socials li {
+    padding: 0 5px;
+  }
+
+  .contact-socials i.fa {
+    font-size: 22px;
+  }
+
+  #new_user .btn{
+    margin-left: auto;
+  }
+
+  #new_user .form-group{
+    width: 100%;
+  }
+
+  #new_user .submit{
+    margin-top: -15px;
+  }
+
+  .cover-title {
+    font-size: 30px;
+  }
+  
+  .cover-subtitle {
+    font-size: 16px;
+  }
+
+  #new_user input {
+    width: 100% !important;
+    font-size: 18px !important;
+  }
+}
+
 /* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
@@ -389,13 +651,16 @@ aside h4 {
 
 
 /* --------------- Galaxy S5 ----------- */
-
 /* Portrait and Landscape */
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 
+    #refer input {
+    font-size: 1em;
+    width: 95%;
+  }
 }
 
 /* Portrait */
@@ -462,6 +727,11 @@ aside h4 {
 
   .cover small {
     font-size: 1em;
+  }
+
+  #refer input {
+    font-size: .95em;
+    width: 95%;
   }
 
   #facebook_icon {
@@ -584,6 +854,11 @@ aside h4 {
   /* mixins, variables, etc. */
   $iphone-w: 42px;
   
+  #refer input {
+    font-size: .85em;
+    width: 95%;
+  }
+
   .contact-socials li {
     padding: 0 5px;
   }
@@ -961,267 +1236,5 @@ aside h4 {
 
   #refer p {
     font-size: 3em;
-  }
-}
-
-/* ------------------- standard media queries ------------------- */
-@media screen and (max-width: 980px){
-  #refer article p.small {
-    display: none;
-  }
-
-  #refer figcaption {
-    display: block;
-  }
-
-  #refer input {
-    height: 30px;
-    font-size: 19px;
-    margin-top: 10px;
-    line-height: 30px;
-  }
-
-  #refer figcaption {
-    margin-top: 10px;
-  }
-
-  #refer h2 {
-    padding-top: 20px;
-    font-size: 22px;
-    padding-bottom: 15px;
-  }
-}
-
-@media screen and (max-width: 850px){
-  #refer input {
-    height: 30px;
-    font-size: 18px;
-    margin-top: 10px;
-    line-height: 30px;
-  }
-
-  #refer figure {
-    margin-top: 18px;
-  }
-
-  #refer h2 {
-    line-height: 30px;
-  }
-}
-
-
-@media screen and (max-width: 800px){
-  .refer-left {
-    padding: 0;
-  }
-
-  #refer input {
-    height: 30px;
-    font-size: 18px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    line-height: 30px;
-  }
-
-
-  #refer figure {
-    margin-top: 18px;
-  }
-
-  #refer h2 {
-    line-height: 30px;
-  }
-}
-
-@media screen and (max-width: 768px){
-  #refer input {
-    height: 28px;
-    font-size: 17px;
-    margin-top: 5px;
-    line-height: 28px;
-  }
-
-  #refer p {
-    line-height: 1.15;
-  }
-}
-
-@media screen and (max-width: 767px){
-  #refer .ref-title {
-    font-size: 4em;
-  }
-
-  #reinforcement p {
-    text-align: center;
-  }
-
-  #copy h1, #copy h3, #refer p {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #refer input {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px; 
-  }
-
-  #refer p {
-    font-size: 17px;
-  }
-
-  #refer h1 {
-    font-size: 30px;
-    margin: 15px auto 20px;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .cover {
-    padding: 0 5px;
-  }
-
-  .cover-heading {
-    font-size: 5vw;
-  }
-
-  #new_user input {
-    font-size: 20px;
-  }
-
-  #new_user .user_email {
-    margin-right: -4px;    
-  }
-
-  #new_user .submit {
-    min-width: 80px;
-  }
-}
-
-@media screen and (max-width: 500px){
-  #new_user .user_email {
-    width: 60%;
-  }
-
-  #new_user .submit {
-    width: 40%;
-  }
-
-  #prizes{
-    margin: 100px 20px;
-  }
-}
-
-
-@media screen and (max-width: 450px){
-   #new_user input {
-    font-size: 18px !important;
-  }
-
-  .cover-heading {
-    font-size: 30px;
-  }
-
-  #new_user {
-    width: 100%;
-  } 
-
-  #new_user .user_email {
-    width: 55%;
-  }
-
-  #new_user .submit {
-    width: 45%;
-  }
-
-  .cover-title {
-    font-size: 36px;
-  }
-
-  .cover-subtitle {
-    font-size: 18px;
-  }
-
-  .contact-socials li {
-    padding: 0px 5px;
-  }
-}
-
-
-@media screen and (max-width: 360px){
-  #refer h1 {
-    font-size: 27px;
-  }
-
-  .cover-heading {
-    font-size: 25px;
-  }
-  
-  #new_user .submit {
-    min-width: 60px;
-  }
-
-  #refer p {
-    font-size: 15px;
-  }
-
-  #refer figcaption p {
-    font-size: 14px;
-  }
-}
-
-
-@media screen and (max-width: 320px){
-  #new_user input {
-    font-size: 16px !important;
-  }
-
-  #new_user .user_email {
-   width: 55%;
-  }
-
-    #new_user .submit {
-    width: 45%;
-  }
-
-  .contact-socials i.fa {
-    font-size: 25px;
-  }
-}
-
-
-@media screen and (max-width: 300px){
-  .contact-socials li {
-    padding: 0 5px;
-  }
-
-  .contact-socials i.fa {
-    font-size: 22px;
-  }
-
-  #new_user .btn{
-    margin-left: auto;
-  }
-
-  #new_user .form-group{
-    width: 100%;
-  }
-
-  #new_user .submit{
-    margin-top: -15px;
-  }
-
-  .cover-title {
-    font-size: 30px;
-  }
-  
-  .cover-subtitle {
-    font-size: 16px;
-  }
-
-  #new_user input {
-    width: 100% !important;
-    font-size: 18px !important;
   }
 }
