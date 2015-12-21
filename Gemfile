@@ -9,19 +9,19 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'jquery-rails'
-gem 'turbolinks'
+gem 'aws-sdk', '< 2.0'
+gem 'bootstrap-sass'
+gem 'delayed_job_active_record'
+gem 'devise'
+gem "font-awesome-rails"
 gem 'gibbon'
 gem 'haml-rails'
-gem 'simple_form'
-gem 'aws-sdk', '< 2.0'
-gem 'devise'
-gem 'unicorn'
-gem 'delayed_job_active_record'
-gem 'bootstrap-sass'
-gem 'rails_12factor', group: :production
-gem "font-awesome-rails"
+gem 'jquery-rails'
 gem "paperclip"
+gem 'rails_12factor', group: :production
+gem 'simple_form'
+gem 'turbolinks'
+gem 'unicorn'
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
 #gem 'rack-timeout'

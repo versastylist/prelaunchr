@@ -35,8 +35,9 @@ class UsersController < ApplicationController
 
 		if @user.save
 			# Sends email to user when user is created
-			#SendEmailJob.set(wait: 15.seconds).perform_later(@user)
-			UserMailer.sign_up_email(@user).deliver
+			# UserMailer.sign_up_email(@user).deliver
+			SendEmailJob.set(wait: 15.seconds).perform_later(@user)
+			
 			cookies[:user_id] = @user.id
 			respond_to do |format|
 				if @user.full_name.blank?

@@ -16,5 +16,8 @@
 !/log/.keep
 /tmp
 
+# Ignore paperclip image upload files.
+/public/system/*
+
 # env
 .env

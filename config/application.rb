@@ -20,7 +20,6 @@ module Prelaunch
     # config.i18n.default_locale = :de
 
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
-    config.active_job.queue_adapter = :delayed_job
 
     #config.action_mailer.default_url_options = { host: "192.168.0.103:3000" }
     config.action_mailer.default_url_options = { host: "http://versastylist-prelaunchr.herokuapp.com" }

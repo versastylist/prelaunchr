@@ -8,8 +8,6 @@ class User < ActiveRecord::Base
     validates :ip_address, presence: true, uniqueness: true
 
     before_create :set_referral_code
-    #before_create :add_user_to_mailchimp
-    after_create :welcome_email
 
     def prize
       Prize.where(number_of_referrals: 0..number_of_referrals).order("number_of_referrals asc").last
@@ -41,7 +39,6 @@ class User < ActiveRecord::Base
     def achieved prize
         prize.number_of_referrals <= number_of_referrals
     end
-
 
     def prize_name
         prize ? prize.name : nil
@@ -80,36 +77,15 @@ class User < ActiveRecord::Base
 
     private
 
-    def mailchimp_object
-        Gibbon::Request.new(api_key: Setting::MAILCHIMP_API_KEY)
-    end
-
-    def add_user_to_mailchimp
-        delay.mailchimp_subscribe if Setting::MAILCHIMP_API_KEY && Setting::MAILCHIMP_LIST_ID
-    end
-
-    def mailchimp_subscribe
-        begin
-            contact = mailchimp_object.lists(Setting::MAILCHIMP_LIST_ID).members.create(body: {email_address: email, status: "subscribed"})
-        rescue Gibbon::MailChimpError => ex
-            print ex.body
-        end
-    end
-
-
     def set_referral_code
     	self.referral_code = generate_referral_code
     end
 
     def generate_referral_code
-	    loop do
-	      code = SecureRandom.hex(5)
-	      break code unless self.class.where(referral_code: code).exists?
-	    end
-    end
-
-    def welcome_email
-        UserMailer.delay.sign_up_email(self)
+      loop do
+        code = SecureRandom.hex(5)
+        break code unless self.class.where(referral_code: code).exists?
+      end
     end
 
 end
